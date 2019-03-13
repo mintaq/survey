@@ -1,8 +1,9 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Register from '@/components/Register'
+import Vue from 'vue';
+import Router from 'vue-router';
+import Register from './components/Register';
+import Home from './components/Home'
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   routes: [
@@ -17,4 +18,4 @@ export default new Router({
       component: Register
     }
   ]
-})
+});
